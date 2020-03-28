@@ -4,41 +4,81 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #f2f2f2;
+  font-size: 1.3rem;
+}
+
+header, footer {
+  background-color: #1c1c1c;
+  width: 100%;
+  color: #fff;
+}
+
+.footer-content {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+nav {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  padding: 0.8rem 1rem 0;
+}
+
+.main {
+  flex-grow: 2;
+  padding-right: 1rem;
+}
+
 .weekly-song {
+  margin-bottom: 2rem;
+}
+
+.weekly-song-item {
   display: flex;
   align-items: center;
   padding: 1rem 0.3rem;
   border-bottom: 1px solid #EEE;
 }
 
-.weekly-song .number {
+.weekly-song-item .number {
   font-size: 1.5rem;
   padding: 0 1rem;
 }
 
-.weekly-song .info {
+.weekly-song-item .info {
   flex-grow: 1;
   font-size: 1.3rem;
   text-transform: capitalize;
 }
 
-.weekly-song .song-title {
+.weekly-song-item .song-title {
   margin-bottom: 0.2rem;
 }
 
-.weekly-song .singer {
+.weekly-song-item .singer {
   font-size: 1.1rem;
   color: #999;
   text-transform: capitalize;
 }
 
-.weekly-song .view-count {
+.weekly-song-item .view-count {
   color: #999;
   font-size: 1.1rem;
 }
 
-.weekly-album {
+.weekly-album-item {
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .album-cover {
@@ -67,37 +107,40 @@
   cursor: pointer;
 }
 
-.weekly-album .info {
+.weekly-album-item .info {
   flex-grow: 1;
   padding-left: 2rem;
   font-size: 1.3rem;
   text-transform: capitalize;
 }
 
-.weekly-album .album-title {
+.weekly-album-item .album-title {
   margin-bottom: 0.2rem;
 }
 
-.weekly-album .singer {
+.weekly-album-item .singer {
   font-size: 1.1rem;
   color: #999;
   margin-bottom: 0.2rem;
 }
 
-.weekly-album .view-count {
+.weekly-album-item .view-count {
   font-size: 1.1rem;
   color: #999;
 }
 
-.weekly-album .icon {
+.weekly-album-item .icon {
   position: absolute;
   bottom: 43px;
   left: 43px;
   font-size: 1.4rem;
   opacity: 0;
+  transform: scale(0);
+  transition: transform 0.5s;
 }
 
 .album-cover .overlay:hover .icon {
+  transform: scale(1);
   opacity: 1;
 }
 
