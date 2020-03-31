@@ -1,0 +1,12 @@
+.image-holder {
+  position: relative;
+  background-image: url('./img/background.png');
+  background-repeat: no-repeat;
+  height: 618px;
+}
+
+.image-holder .image-slider {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
