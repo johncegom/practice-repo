@@ -2,7 +2,7 @@
   padding: 1rem;
   text-align: center;
   color: #262626;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   border: 1px solid #dbdbdb;
   margin-bottom: 1rem;
 }
@@ -10,4 +10,5 @@
 .signup-card a {
   text-decoration: none;
   color: #0095f6;
+  font-weight: bold;
 }

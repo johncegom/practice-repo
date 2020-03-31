@@ -1,0 +1,15 @@
+.mobile-app {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.mobile-app p {
+  padding: 1rem 0;
+}
+
+.mobile-app a > img {
+  height: 40px;
+  margin-right: 0.3rem;
+  margin-bottom: 1rem;
+}
