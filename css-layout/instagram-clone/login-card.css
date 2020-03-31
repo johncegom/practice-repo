@@ -4,6 +4,13 @@
   align-items: center;
   padding: 2rem;
   border: 1px solid #dbdbdb;
+  margin-bottom: 0.7rem;
+  background-color: #fff;
+}
+
+.login-card .login-logo > img {
+  height: 51px;
+  margin-bottom: 2rem;
 }
 
 .login-card .login-input {
@@ -23,11 +30,10 @@
 .login-input .login-button {
   background-color: rgba(0,149,246,.3);
   border: 1px solid transparent;
-  border-radius: 5px;
-  padding: 0.7rem;
+  border-radius: 2px;
+  padding: 0.4rem;
   color: #fff;
   font-weight: bold;
-  font-size: 1.1rem;
   margin: 0.7rem 0 1.5rem;
 }
 
@@ -38,6 +44,8 @@
 }
 
 .special-hr .mask {
+  position: relative;
+  z-index: 2;
   background: white;
   display: inline;
   padding: 1.5rem;
@@ -46,7 +54,7 @@
 .special-hr hr {
   position: relative;
   bottom: 9px;
-  z-index: -1;
+  z-index: 1;
   border: 1px solid #dbdbdb;
 }
 
@@ -60,4 +68,8 @@
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
   color: #385185;
+}
+
+.facebook-logo > img {
+  height: 16px;
 }

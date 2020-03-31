@@ -1,8 +1,8 @@
 .landingpage-footer {
   display: flex;
   text-transform: uppercase;
-  padding: 2.4rem 7.5rem;
-  font-size: 0.8rem;
+  padding: 3.5rem 7.5rem;
+  font-size: 0.7rem;
 }
 
 .landingpage-footer .help-navigation {
@@ -16,6 +16,7 @@
   text-decoration: none;
   margin-right: 1rem;
   color: #00376b;
+  font-weight: bold;
 }
 
 .landingpage-footer {
