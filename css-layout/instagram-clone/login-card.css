@@ -1,0 +1,63 @@
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid #dbdbdb;
+}
+
+.login-card .login-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-style {
+  padding: 0.5rem 1rem;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.login-input .login-button {
+  background-color: rgba(0,149,246,.3);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.7rem;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0.7rem 0 1.5rem;
+}
+
+.login-input .special-hr {
+  text-align: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.special-hr .mask {
+  background: white;
+  display: inline;
+  padding: 1.5rem;
+}
+
+.special-hr hr {
+  position: relative;
+  bottom: 9px;
+  z-index: -1;
+  border: 1px solid #dbdbdb;
+}
+
+.login-input > a {
+  text-align: center;
+  text-decoration: none;
+  color: #00376b;
+}
+
+.login-input .facebook-login {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: #385185;
+}
