@@ -1,0 +1,35 @@
+.switch-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 48px;
+  width: 86px;
+  background-color: #ddd;
+  border-radius: 60px;
+  border: 1px solid grey;
+  position: relative;
+  transition: 0.2s;
+}
+
+.switch-button::before {
+  outline: none;
+  position: absolute;
+  background-color: white;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 44px;
+  width: 43px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.switch-button:checked {
+  background-color: mediumseagreen;
+  border: 1px solid mediumseagreen;
+}
+
+.switch-button:checked::before {
+  left: 40px;
+}
