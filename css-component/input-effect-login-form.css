@@ -1,0 +1,72 @@
+.input-effect-login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: .4px 4px 12px rgba(0, 0, 0, 0.2);
+  text-shadow: .4px .4px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  color: #313131;
+}
+
+.input-effect-login-form h2 {
+  user-select: none;
+  font-weight: 400;
+}
+
+.input-effect-login-form .input-group {
+  position: relative;
+  margin-bottom: 1rem;
+  width: 75%;
+}
+
+.input-group input {
+  border: none;
+  border-bottom: 1px solid dodgerblue;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+  color: #333;
+}
+
+.input-group label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: gray;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+.input-group input:focus + label, .input-group input:valid + label {
+  top: -15px;
+  font-size: 0.7rem;
+  color: dodgerblue;
+}
+
+.input-group input:invalid {
+  border: none;
+  border-bottom: 2px solid red;
+  outline: none;
+}
+
+.input-effect-login-form .login-button {
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  width: 75%;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0.4px 4px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-bottom: .5rem;
+  color: white;
+}
+
+.input-effect-login-form p {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.input-effect-login-form p a {
+  color: inherit;
+}
