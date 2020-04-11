@@ -1,6 +1,6 @@
 # Project Title
 
-Clone Instagram Landingpage Design. I make this to practice my HTML/CSS/JS skills.
+Clone Instagram landing page design. I make this to practice my HTML/CSS/JS skills.
 
 ## Getting Started
 
