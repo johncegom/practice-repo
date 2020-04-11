@@ -4,11 +4,21 @@ Clone Instagram landing page design. I make this to practice my HTML/CSS/JS skil
 
 ## Getting Started
 
-Don't need any specific packages, just open landingpage.html.
+Don't need any specific package, just open landingpage.html.
+
+Demo website: https://instagram-clone-5523e.web.app/
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Following these instructions if you want to deploy to Firebase Hosting:
+ 
+ * Go to the project folder and open terminal in it.
+ * Use *firebase login* command.
+ * Use *firebase init* command -> Choose hosting -> Choose default folder (public) -> Choose exists project if you already created on firebase console. -> Choose No for Single Page App option.
+ * Copy all basic file (not firebase file) into public folder.
+ * Run *firebase serve* command to check if it works correctly.
+ * Use *firebase deploy* command to deploy to Firebase Hosting.
+ * When you update website, use *firebase deploy* command again to update on Firebase Hosting.
 
 ## Built With
 
