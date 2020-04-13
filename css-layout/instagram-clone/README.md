@@ -6,7 +6,7 @@ Clone Instagram landing page design. I make this to practice my HTML/CSS/JS skil
 
 Don't need any specific package, just open landingpage.html.
 
-Demo website: https://instagram-clone-5523e.web.app/
+Demo website: [Instagram Clone](https://instagram-clone-5523e.web.app/)
 
 ## Deployment
 
