@@ -14,7 +14,7 @@ Following these instructions if you want to deploy to Firebase Hosting:
  
  * Go to the project folder and open terminal in it.
  * Use *firebase login* command.
- * Use *firebase init* command -> Choose hosting -> Choose default folder (public) -> Choose exists project if you already created on firebase console. -> Choose No for Single Page App option.
+ * Use *firebase init* command -> Choose hosting -> Choose default folder (public) -> Choose exists project if you already created on firebase console website (console.firebase.google.com). -> Choose No for Single Page App option.
  * Copy all basic file (not firebase file) into public folder.
  * Run *firebase serve* command to check if it works correctly.
  * Use *firebase deploy* command to deploy to Firebase Hosting.
