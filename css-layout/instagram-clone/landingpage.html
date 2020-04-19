@@ -29,8 +29,14 @@
         </div>
     
         <div class="login-input">
-          <input class="input-style" placeholder="Phone number, username or email" type="text">
-          <input class="input-style" placeholder="Password" type="text">
+          <div class="input-group">
+            <input id="username" class="input-style" type="text" required autocomplete="off" autocorrect="off" autocapitalize="off">
+            <label id="label-username" for="username">Phone number, username or email</label>
+          </div>
+          <div class="input-group">
+            <input id="password" class="input-style" type="password" required autocomplete="off" autocorrect="off" autocapitalize="off">
+            <label id="label-password" for="password">Password</label>
+          </div>
           <button class="login-button">Log In</button>
     
           <div class="special-hr">

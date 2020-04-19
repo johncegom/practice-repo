@@ -19,12 +19,45 @@
   width: 100%;
 }
 
+.login-input .input-group {
+  position: relative;
+}
+
+.input-group label {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  color: gray;
+  pointer-events: none;
+  transition: 0.1s ease-out;
+  font-size: 0.9rem;
+}
+
+.input-group input:valid + #label-username {
+  top: 2px;
+  transform: scale(0.73333) translateX(-41px);
+}
+
+.input-group input:valid + #label-password {
+  top: 2px;
+  transform: scale(0.73333) translateX(-13px);
+}
+
+
+.input-group input:valid {
+  font-size: 0.7rem;
+  padding: 0.6rem 0.4rem 0;
+}
+
 .input-style {
-  padding: 0.5rem 1rem;
+  height: 36px;
+  padding: 0 0.4rem;
   background-color: #fafafa;
   border: 1px solid #dbdbdb;
   border-radius: 5px;
   margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.2rem;
 }
 
 .login-input .login-button {
