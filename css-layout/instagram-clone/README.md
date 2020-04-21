@@ -1,4 +1,4 @@
-# Project Title
+# Instagram Clone
 
 Clone Instagram landing page design. I make this to practice my HTML/CSS/JS skills.
 
