@@ -1,6 +1,6 @@
 .image-holder {
   position: relative;
-  background-image: url('./img/background.png');
+  background-image: url('../imgs/background.png');
   background-repeat: no-repeat;
   height: 618px;
 }

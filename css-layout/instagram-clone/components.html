@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Components</title>
-  <link rel="stylesheet" href="signup-card.css">
-  <link rel="stylesheet" href="landingpage-footer.css">
-  <link rel="stylesheet" href="mobile-app.css">
-  <link rel="stylesheet" href="image-holder.css">
-  <link rel="stylesheet" href="login-card.css">
+
+  <link rel="stylesheet" href="./assets/css/signup-card.css">
+  <link rel="stylesheet" href="./assets/css/landingpage-footer.css">
+  <link rel="stylesheet" href="./assets/css/mobile-app.css">
+  <link rel="stylesheet" href="./assets/css/image-holder.css">
+  <link rel="stylesheet" href="./assets/css/login-card.css">
   <style>
     * {
       margin: 0;
@@ -47,7 +48,7 @@
     <p>Get the app.</p>
     <div class="app-logo">
       <a href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo">
-        <img src="./img/appstore-download-button.png" alt="">
+        <img src="./assets/imgs/appstore-download-button.png" alt="">
       </a>
       <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D6300C5EC-905F-431A-842F-CC18AB9754F8%26utm_content%3Dlo%26utm_medium%3Dbadge">
         <img src="./img/googleplay-download-button.png" alt="">
@@ -57,18 +58,24 @@
 
   <div class="image-holder">
     <div class="image-slider">
-      <img src="./img/bg1.jpg" alt="">
+      <img src="./assets/imgs/bg1.jpg" alt="">
     </div>
   </div>
 
   <div class="login-card">
     <div class="login-logo">
-      <img src="./img/instagram-word-logo.png" height="51" alt="">
+      <img src="./assets/imgs/instagram-word-logo.png" alt="">
     </div>
 
     <div class="login-input">
-      <input class="input-style" placeholder="Phone number, username or email" type="text">
-      <input class="input-style" placeholder="Password" type="text">
+      <div class="input-group">
+        <input id="username" class="input-style" type="text" required autocomplete="off" autocorrect="off" autocapitalize="off">
+        <label id="label-username" for="username">Phone number, username or email</label>
+      </div>
+      <div class="input-group">
+        <input id="password" class="input-style" type="password" required autocomplete="off" autocorrect="off" autocapitalize="off">
+        <label id="label-password" for="password">Password</label>
+      </div>
       <button class="login-button">Log In</button>
 
       <div class="special-hr">
@@ -78,7 +85,7 @@
 
       <a class="facebook-login" href="#">
           <span class="facebook-logo">
-            <img src="./img/facebook-logo.svg" height="16" alt="">
+            <img src="./assets/imgs/facebook-logo.svg" alt="">
           </span>
           Log in with Facebook
       </a>
