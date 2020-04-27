@@ -1,0 +1,70 @@
+h1 {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.video-background {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.video-background .video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: white url("./video-background.png") no-repeat center center/cover;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-background .video-container:after {
+  content: '';
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.video-background .content {
+  z-index: 10;
+}
+
+.video-background .btn {
+  display: inline-block;
+  padding: 15px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  opacity: .4;
+  text-decoration: none;
+  color: black;
+}
+
+.video-background .btn:hover {
+  transform: scale(.98);
+  opacity: .8;
+}
